@@ -1,0 +1,76 @@
+*{margin: 0; padding: 0;font-family: 'Old Standard TT', serif;}
+.container{
+     display: grid;
+     font-size: 40px;
+     justify-content: center;
+     align-content: center;
+     min-height: 100vh;
+     grid-template-columns: 50vw;
+     grid-template-rows: repeat(3,10vh) 5vh repeat(2,10vh);
+     grid-gap: 10px;
+     
+}
+body{
+    background-image: url("./img/6071843.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.submit-btn{
+    background-color: turquoise;
+}
+.bmi-value{
+    background-color: rgb(93, 93, 92);
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.status{
+    background-color: rgb(11, 49, 37);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.container > div{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+button,input{
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    border-radius: 8px;
+}
+input{
+    background: #402b00;
+    text-indent: 0.5em;
+    max-width:100% ;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button{
+    background: rgb(60, 50, 255);
+    cursor: pointer;
+}
+button:hover{
+    background: #332057;
+    color: white;
+}
